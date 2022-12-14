@@ -8,10 +8,12 @@
 
 void times_table(void)
 {
-	int num1, num2;
+	int num1, num2, prod;
 
 	for (num1 = 0; num1 <= 9; num1++)
+	{
 		_putchar('0');
+	}
 		for (num2 = 0; num2 <= 9; num2++)
 		{
 			_putchar(',');
