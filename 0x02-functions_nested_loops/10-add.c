@@ -11,7 +11,6 @@
 
 int add(int i, int j)
 {
-	int i, j;
 
 	return (i + j);
 }
