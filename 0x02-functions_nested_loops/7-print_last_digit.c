@@ -8,7 +8,7 @@
  */
 
 int print_last_digit(int n)
-i{
+{
 	int r;
 
 	if (n < 0)
