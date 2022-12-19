@@ -19,5 +19,5 @@ void puts2(char *str);
 		}
 		i++;
 	}
-	_ptchar('\n');
+	_putchar('\n');
 }
