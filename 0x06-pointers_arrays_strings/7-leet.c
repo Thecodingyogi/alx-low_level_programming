@@ -4,13 +4,12 @@
  * leet - encodes a string into 1337
  * @s: string
  *
- * Return: s address
+ * Return: string
  */
 
 char *leet(char *s)
 {
 	int i, j;
-
 	char lower_case[] = {'a', 'e', 'o', 't', 'l'};
 	char upper_case[] = {'A', 'E', 'O', 'T', 'L'};
 	char numbers[] = {'4', '3', '0', '7', '1'};
@@ -21,7 +20,7 @@ char *leet(char *s)
 		{
 			if (s[i] == lower_case[j] || s[i] == upper_case[j])
 			{
-				s[i] == numbers[j];
+				s[i] = numbers[j];
 			}
 		}
 	}
