@@ -11,9 +11,9 @@ char *leet(char *s)
 {
 	int i, j;
 
-	char lower_case[] = {a, e, o, t, l};
-	char upper_case[] = {A, E, O, T, L};
-	int numbers[] = {4, 3, 0, 7, 1};
+	char lower_case[] = {'a', 'e', 'o', 't', 'l'};
+	char upper_case[] = {'A', 'E', 'O', 'T', 'L'};
+	char numbers[] = {'4', '3', '0', '7', '1'};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
