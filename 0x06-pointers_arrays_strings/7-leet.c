@@ -22,7 +22,6 @@ char *leet(char *s)
 			if (s[i] == lower_case[j] || s[i] == upper_case[j])
 			{
 				s[i] == numbers[j];
-				break;
 			}
 		}
 	}
