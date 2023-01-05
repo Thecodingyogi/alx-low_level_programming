@@ -10,11 +10,15 @@
 
 int helperfunction(int num, int i)
 {
-	if (num % i == 0)
-		return (0);
+	if (i < num)
+	{
+		if (num % i == 0)
+			return (0);
+		else
+			return (helperfunction(num, i + 1));
+	}
 	else
-		return (helperfunction(num, i + 1));
-	return (1);
+		return (1);
 }
 
 /**
