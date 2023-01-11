@@ -50,8 +50,8 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; s2[j] != '\0'; j++)
 	{
 		ptr[i] = s2[j];
+		i++;
 	}
-	ptr[i] = '\0';
 
 	return (ptr);
 }
