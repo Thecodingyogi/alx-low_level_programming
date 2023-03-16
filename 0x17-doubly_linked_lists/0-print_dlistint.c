@@ -13,6 +13,6 @@ size_t print_dlistint(const dlistint_t *h)
 
 	if (h->next != NULL)
 		nodes++;
-		h = h->next;
+
 	return (nodes);
 }
